@@ -2,7 +2,6 @@
 
 // Receiving Inputs from USER
 
-
 // The YAW in degrees to rotate the point in Space
 yaw = input('Enter YAW: ');
 
@@ -72,7 +71,9 @@ ktbz = linspace(Pm(3), Fm(3), 100);
 mega_ktb = [ktbx ktby ktbz]
 
 // COMET3D animation functon
+
 clf();
+
 //comet3d([ktbx ktby ktbz]);
 //comet3d(ktbx,ktbz,ktby)
 comet3d ([0 Pm(1)],[0 Pm(2)],[0 Pm(3)],"colors",2);
